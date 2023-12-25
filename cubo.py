@@ -7,6 +7,7 @@ class Cube:
        self.left = [[2]*3 for _ in range(3)]
        self.right = [[3]*3 for _ in range(3)]
        self.up = [[4]*3 for _ in range(3)]
+       
        self.down = [[5]*3 for _ in range(3)]
 
    def rotate_face_clockwise(self, face):
